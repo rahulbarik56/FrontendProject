@@ -22,22 +22,108 @@
 <a href="./index.html" class="logo">
 
     <img src="./assets/images/logo.svg" height="150" width="100"  alt="Tvflix Home">
-    
-    <div class="search-box" search-box>
-       <div class="search-wrapper" search-wrapper>
-        <input type="text" name="search" aria-label="search movies"
-        placeholder="search Any Movies" class="input-field">
-
-        <div class="search-btn"></div>
-
-       </div> 
-
-    </div>
 </a>
+
+<div class="search-box " search-box>
+    <div class="search-wrapper  " search-wrapper>
+
+     <input type="text" name="search" aria-label="search movies"
+     placeholder="Search Any Movies" class="search-field" autocomplete="off"  search-field>
+
+     <img src="./assets/images/search.png" alt="search"  width="24" height="24" class="leading-icon">
+    </div>
+     
+    <button class="search-btn"  search-toggler>
+        <img src="./assets/images/close.png" alt="close search box"  width="24" height="24">
+    </button>
+
+ </div>
+
+    <button class="search-btn" search-toggler menu-class>
+    <img src="./assets/images/search.png" width="24" height="24"  alt="open search box">
+   </button>
+    
+   <button class="search-btn"  search-toggler>
+    <img src="./assets/images/menu.png" alt="open menu"  width="24" height="24"  class="menu">
+    <img src="./assets/images/menu-close.png" alt="close menu"  width="24" height="24" class="close">
+   </button>
 
 </header>
 
+<!-- Siderbar -->
 
+<nav class="sidebar active" sidebar>
+    <div class="sidebar-inner">
+
+        <div class="sidebar-list">
+           
+          <p class="title"> Genre</p>
+    
+          <a href="./movie-list.html" menu-close class="sidebar-link">Action</a>
+          <a href="./movie-list.html" menu-close class="sidebar-link">Horror</a>
+          <a href="./movie-list.html" menu-close class="sidebar-link">Comedy</a>
+          <a href="./movie-list.html" menu-close class="sidebar-link">Adventure</a>
+          <a href="./movie-list.html" menu-close class="sidebar-link">Drama</a>
+          <a href="./movie-list.html" menu-close class="sidebar-link">Sci-Fi</a>
+        
+    
+        </div>
+         
+        <div class="sidebar-list">
+           
+            <p class="title">Language</p>
+      
+            <a href="./movie-list.html" menu-close class="sidebar-link">English</a>
+            <a href="./movie-list.html" menu-close class="sidebar-link">Hindi</a>
+            <a href="./movie-list.html" menu-close class="sidebar-link">Bangali</a>
+            
+          
+      
+          </div>
+    
+          <div class="sidebar-footer">
+            <p class="copyright"> Copyright</p>
+          
+            <img src="./assets/images/tmdb-logo.svg" alt="">
+    
+          </div>
+    
+    </div>
+</nav>
+
+<div class="overlay" overlay menu-toggler></div>
+
+<article class="container" page-content>
+  
+    <!-- Banner -->
+   
+    <section class="banner" aria-label="popular movies">
+      
+        <div class="banner-slider">
+      
+            <div class="slider-iterm  active" slider-iterm>
+
+                <img src="./assets/images/slider-banner.jpg" alt=" Puss in Boots: The Last Wish" class="img-cover" loading="eager">
+
+                <div class="banner-content"> 
+                    <h2 class="heading">
+                        Puss in Boots: The Last Wish
+                    </h2>
+                    
+                    <div class="meta-list">
+                        <div class="meta-item">2022</div>
+                    </div>
+
+                </div>
+            </div>
+
+
+        </div>
+
+    </section>
+
+
+</article>
 
 </body>
 </html>
