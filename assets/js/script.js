@@ -90,11 +90,11 @@ for (let i = 0; i < whishlistBtns.length; i++) {
 // });
 
 
-const activePage = window.location.pathname;
-const navlinks = document.querySelectorAll('.navbar-link').
-forEach(link => {
-  if(link.href.includes(`${activePage}`)){
-    console.log(`${activePage}`);
-    link.classList.add('active');
-  }
-})
+// const activePage = window.location.pathname;
+// const navlinks = document.querySelectorAll('.navbar-link').
+// forEach(link => {
+//   if(link.href.includes(`${activePage}`)){
+//     console.log(`${activePage}`);
+//     link.classList.add('active');
+//   }
+// })
