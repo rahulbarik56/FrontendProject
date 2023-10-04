@@ -2,9 +2,7 @@
   #style.css
 \*-----------------------------------*/
 
-/**
- * copyright 2022 codewithsadee
- */
+
 
 
 
@@ -19,9 +17,9 @@
   /**
    * colors
    */
-
+   /* --ultramarine-blue: hsl(235, 70%, 60%); */
   --ultramarine-blue_10: hsla(235, 70%, 60%, 0.1);
-  --ultramarine-blue: hsl(235, 70%, 60%);
+  --ultramarine-blue: hsla(0, 0%, 0%, 0.989);
   --orange-peel_10: hsla(36, 100%, 55%, 0.1);
   --space-cadet_20: hsla(248, 32%, 23%, 0.2);
   --space-cadet_80: hsla(247, 35%, 19%, 0.8);

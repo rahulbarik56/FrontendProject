@@ -2,17 +2,17 @@
 
 
 
-/**
- * element toggle function
- */
+
+ // element toggle function
+ 
 
 const toggleElem = function (elem) { elem.classList.toggle("active"); }
 
 
 
-/**
- * navbar toggle
- */
+
+ // navbar toggle
+ 
 
 const navbar = document.querySelector("[data-navbar]");
 const navTogglers = document.querySelectorAll("[data-nav-toggler]");
@@ -27,9 +27,9 @@ for (let i = 0; i < navTogglers.length; i++) {
 
 
 
-/**
- * header sticky & back to top button
- */
+
+ //header sticky & back to top button
+ 
 
 const header = document.querySelector("[data-header]");
 const backTopBtn = document.querySelector("[data-back-top-btn]");
@@ -48,9 +48,9 @@ window.addEventListener("scroll", function () {
 
 
 
-/**
- * search box toggle
- */
+
+ // search box toggle
+ 
 
 const searchTogglers = document.querySelectorAll("[data-search-toggler]");
 const searchBox = document.querySelector("[data-search-box]");
@@ -63,9 +63,9 @@ for (let i = 0; i < searchTogglers.length; i++) {
 
 
 
-/**
- * whishlist button toggle
- */
+
+ // whishlist button toggle
+ 
 
 const whishlistBtns = document.querySelectorAll("[data-whish-btn]");
 
